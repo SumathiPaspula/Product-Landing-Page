@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  @media (max-width:700px){
+    #prices{
+      display:flex;
+      flex-direction: column;
+    }
+    #header{
+       height: 25%;
+    }
+    #header-img{
+      display: block;
+      width: 300px;
+      height:20%;
+      padding-right: 30px;
+      margin: 0 auto;
+    }
+    #nav-bar{
+      display:flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    #main{
+    padding-top: 150px;
+  }
+  .nav-link{
+    margin: auto 2px;
+    padding: 5px;
+  }
+  }
+  
+  @media (min-width:700px){
+    #prices{
+        display:flex;
+        flex-direction: row;
+      }
+      #header{
+         height: 10%;
+         
+      }
+      #header-img{
+        width: 300px;
+        height: 100%;
+        float: left;
+      }
+      #nav-bar{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      float: right;
+      height: 100%;
+    }
+    
+    #main{
+    padding-top: 100px;
+  }
+  }
+  body{
+   background-color: #EfEfEf;
+  }
+  #header{
+    position: fixed;
+    z-index: 1;
+    width:100%;
+    background-color: #EfEfEf;
+  }
+  
+  #header-img{
+    object-fit: scale-down;
+    background-color: #EfEfEf;;
+  }
+  
+  .nav-link{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    margin: auto 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  #main{
+   margin: 0px 10px;
+   text-align: center;
+  }
+  section{
+    margin: 25px 0;
+  }
+  #form{
+    text-align: center;
+  }
+  
+  #email{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #submit{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    background-color: yellow;
+  }
+  
+  .feature{
+    margin: 50px auto;
+  }
+  
+  p{
+    margin: 5px;
+    font-size: 1.1rem;
+  }
+  
+  #prices{
+   background-color: white;
+   width: 100%;
+  
+  }
+  
+  .plan{
+    background-color: yellow;
+    margin: 10px auto;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  h3{
+    background-color: lightgray;
+    padding: 10px;
+  }
+  ul{
+    list-style-type: none;
+  }
+  li{
+    padding: 5px;
+  }
+  
+  .cost{
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 5px;
+  }
+  
+  button{
+    margin: 20px;
+    padding: 5px;
+  }
+  
+  .links{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .links a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+  }
+  #contact{
+     float: right;
+    color: gray;
+    padding: 10px;
+  
+  }
